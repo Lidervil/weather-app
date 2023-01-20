@@ -1,6 +1,6 @@
 let data
 
-async function apiCall(city = 'london'){
+export async function apiCall(city = 'japan'){
     let response
     let json;
     try {
@@ -11,8 +11,4 @@ async function apiCall(city = 'london'){
     }
 
     data = json;
-    console.log(data)
 }
-
-apiCall
-console.log(data);
